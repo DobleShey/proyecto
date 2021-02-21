@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">A Duchess\'s fantasy</string>
+    <string name="todo">TODO</string>
+    <string name="button">ENTRAR</string>
+    <string name="title_activity_scrolling">MENU</string>
+    <string name="action_settings">Settings</string>
+    <string name="doctor_elise">Doctor Elise</string>
+    <string name="i_am_a">I am a child of this house</string>
+    <string name="sidekick">Miss Not-So Sidekick</string>
+    <string name="survive">Survive as the Hero\'s Wife</string>
+    <string name="lady_to_queen">Lady to queen</string>
+    <string name="the_reason">The Reason Why Raeliana..</string>
+    <string name="title_activity_scrolling2">ScrollingActivity</string>
+    <string name="survive_as_the_hero_s_wife">Survive as the hero\'s wife</string>
+
+</resources>

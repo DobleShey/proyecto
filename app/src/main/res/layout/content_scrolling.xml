@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toqueen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling"
+    app:layout_scrollFlags="scroll|exitUntilCollapsed"
+    android:fitsSystemWindows="true"
+
+    >
+
+
+    <TableLayout
+        android:id="@+id/tabla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500">
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="70dp"
+            android:layout_height="0dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="203dp"
+                android:layout_height="200dp"
+                android:contentDescription="@string/todo"
+                android:translationY="30dp"
+                app:srcCompat="@drawable/doctor" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="203dp"
+                android:layout_height="200dp"
+                android:contentDescription="@string/todo"
+                android:translationY="30dp"
+                app:srcCompat="@drawable/iam" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_width="70dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/doctor_elise"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/i_am_a" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row4"
+            android:layout_width="70dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/sidekick"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:contentDescription="@string/todo"
+                android:translationY="30dp"
+                app:srcCompat="@drawable/missnot" />
+
+            <ImageView
+                android:id="@+id/hero"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:contentDescription="@string/todo"
+                android:translationY="30dp"
+                app:srcCompat="@drawable/survive" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row5"
+            android:layout_width="70dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/sides"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/sidekick" />
+            <TextView
+                android:id="@+id/heros"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/survive" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row6"
+            android:layout_width="70dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/rae"
+                android:layout_width="152dp"
+                android:layout_height="200dp"
+                android:contentDescription="@string/todo"
+                android:translationY="30dp"
+                app:srcCompat="@drawable/raeliana" />
+
+            <ImageView
+                android:id="@+id/lady"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:contentDescription="@string/todo"
+                android:translationY="30dp"
+                app:srcCompat="@drawable/lady" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row7"
+            android:layout_width="70dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/raeliana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/the_reason" />
+
+            <TextView
+                android:id="@+id/queen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/lady_to_queen" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row9"
+            android:layout_width="70dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@id/survive"
+                android:layout_width="152dp"
+                android:layout_height="200dp"
+                android:contentDescription="@string/todo"
+                android:translationY="30dp"
+                app:srcCompat="@drawable/survive" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row8"
+            android:layout_width="70dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/survi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/survive_as_the_hero_s_wife" />
+
+
+        </TableRow>
+    </TableLayout>
+
+</androidx.core.widget.NestedScrollView>
